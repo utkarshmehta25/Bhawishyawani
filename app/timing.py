@@ -1,6 +1,6 @@
 from datetime import datetime, timezone, timedelta
 import swisseph as swe
-from app.vedic_engine import VIM_ORDER, VIM_YEARS, PLANET_HI, norm, nakshatra
+from vedic_engine import VIM_ORDER, VIM_YEARS, PLANET_HI, norm, nakshatra
 
 FLAGS = swe.FLG_SWIEPH | swe.FLG_SIDEREAL | swe.FLG_SPEED
 TRANSIT_PLANETS = {'Surya': swe.SUN, 'Chandra': swe.MOON, 'Mangala': swe.MARS, 'Budha': swe.MERCURY, 'Guru': swe.JUPITER, 'Shukra': swe.VENUS, 'Shani': swe.SATURN, 'Rahu': swe.TRUE_NODE}
