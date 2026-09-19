@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: bhawishyawani
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app.app:app
+    healthCheckPath: /

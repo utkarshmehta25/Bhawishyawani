@@ -1,0 +1,11 @@
+# Launch checklist
+- Create/connect GitHub repository
+- Upload this repository
+- Create a free Render web service from GitHub
+- Build: `pip install -r requirements.txt`
+- Start: `gunicorn app.app:app`
+- Choose Free instance if available
+- Verify HTTPS and health check
+- Add privacy notice before collecting real birth data
+- Review Swiss Ephemeris license terms
+- Test mobile and desktop browsers
