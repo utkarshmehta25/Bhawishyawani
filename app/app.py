@@ -65,7 +65,7 @@ def api_chart():
             result=build_report(data['date'],data['time'],float(data['latitude']),float(data['longitude']),float(data['utc_offset']))
         result['interpretation']=generate_interpretation(result, data.get('language','hinglish'))
         result['timing']=timing_signals(result)
-        return jsonify(enrich_chart(result))
+        return jsonify(result)
     except Exception as e:
         return jsonify({'error':str(e)}),400
 
