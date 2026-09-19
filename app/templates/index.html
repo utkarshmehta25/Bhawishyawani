@@ -1,8 +1,8 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#7d1f0b"><title>BhawishyaWani — भारतीय वैदिक ज्योतिष</title><meta name="description" content="BhawishyaWani Vedic birth chart with Lahiri sidereal calculations, D1, D9 and Vimshottari Dasha."><style>
 :root{--bg:#fff8ed;--ink:#28140a;--muted:#765b48;--saffron:#9e2e0d;--gold:#b77a18;--deep:#511606;--card:#fffdf9;--line:#ead8bd;--soft:#fff0d4;--green:#2e6b45;--shadow:0 14px 40px #5b190a12}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#fff0d3 0,#fff8ed 46%,#f5ebdd 100%);font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink)}header{background:linear-gradient(135deg,#4b1208,#8f260d 55%,#c47719);color:#fff;padding:24px 18px 28px;border-bottom:4px solid #e0a441}.wrap,main{max-width:1120px;margin:auto}.brand{display:flex;align-items:center;gap:12px}.om{font:48px Georgia,serif}.brand h1{font:29px Georgia,serif;margin:0}.tag{margin:6px 0 0 59px;opacity:.9}.card{background:var(--card);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:21px;margin-top:18px}.hero{text-align:center}.hero h2{font:29px Georgia,serif;margin:9px 0}.pills,.tabs{display:flex;gap:8px;flex-wrap:wrap}.pills{justify-content:center}.pill{background:var(--soft);border:1px solid #efd09b;border-radius:99px;padding:7px 11px;font-size:12px;font-weight:700}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:15px}label{font-size:13px;font-weight:700;color:var(--muted);display:block;margin-bottom:6px}input,select,button{width:100%;padding:13px;border-radius:12px;border:1px solid #d9c3a4;background:white;font:inherit}button.primary{background:linear-gradient(135deg,#9e2e0d,#d47d19);color:#fff;border:0;font-weight:800;cursor:pointer}.small{font-size:12px;color:var(--muted)}.hidden{display:none!important}.suggest{position:relative}.results{position:absolute;z-index:20;left:0;right:0;background:#fff;border:1px solid var(--line);border-radius:12px;margin-top:5px;box-shadow:0 12px 30px #0002;overflow:hidden}.results button{margin:0;border-radius:0;background:#fff;color:var(--ink);font-weight:600;text-align:left;border-bottom:1px solid #f0e5d6}.status{color:var(--green);font-size:12px;margin-top:6px;font-weight:700}.error{background:#fff0ee;color:#9d1c10;padding:12px;border-radius:10px;margin-top:12px}.section-title{font:22px Georgia,serif;color:var(--deep);margin:0 0 14px}.summary{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}.stat{background:#fff7e9;border:1px solid var(--line);border-radius:14px;padding:12px}.stat b{display:block;font-size:17px}.stat span{font-size:11px;color:var(--muted)}.chart-wrap{display:flex;justify-content:center;overflow:auto;margin-top:14px}.kundli{width:min(560px,100%);height:auto}.tabs{margin:8px 0 16px}.tab{width:auto;padding:9px 13px;background:#fff7e9;color:var(--deep);border:1px solid var(--line);cursor:pointer}.tab.active{background:#7d1f0b;color:#fff;border-color:#7d1f0b}.report-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.area{border:1px solid var(--line);border-radius:16px;padding:15px;background:#fffaf2}.area h4{margin:0 0 7px;font:18px Georgia,serif;color:var(--deep)}.icon{font-size:20px;margin-right:7px}.area p{margin:6px 0;line-height:1.45;font-size:13px}.badge{display:inline-block;border-radius:99px;padding:4px 8px;font-size:11px;font-weight:800;background:#f4ead8}.table{width:100%;border-collapse:collapse;font-size:13px}.table th,.table td{text-align:left;padding:9px 7px;border-bottom:1px solid #efdfc8;white-space:nowrap}.callout{background:#fff3d9;border-left:4px solid var(--gold);padding:12px;border-radius:9px;font-size:13px;line-height:1.5}.disclaimer{font-size:11px;color:var(--muted);line-height:1.5}footer{text-align:center;color:var(--muted);font-size:12px;padding:30px}@media(max-width:720px){.grid,.report-grid{grid-template-columns:1fr}.summary{grid-template-columns:repeat(2,1fr)}.card{padding:16px;border-radius:16px}.brand h1{font-size:25px}.tag{margin-left:0}.hero h2{font-size:25px}}
 
-<style>
-.s9bar{display:flex;gap:8px;justify-content:flex-end;align-items:center;margin-top:14px;flex-wrap:wrap}.s9btn{width:auto!important;padding:9px 12px!important;border-radius:999px!important;cursor:pointer;font-weight:700}.s9panel{position:fixed;right:14px;bottom:14px;width:min(390px,calc(100vw - 28px));max-height:72vh;overflow:auto;background:#fffdf8;border:1px solid #ead8bd;border-radius:20px;box-shadow:0 20px 60px #0003;z-index:100;padding:18px}.s9item{padding:11px;border:1px solid #ead8bd;border-radius:13px;margin:8px 0;background:#fff8ed}.s9row{display:flex;gap:7px;align-items:center;justify-content:space-between}.s9row button{width:auto;padding:7px 9px}.profile-chip{display:inline-flex;gap:7px;align-items:center;background:#fff0d4;border:1px solid #efd09b;border-radius:99px;padding:7px 11px;font-size:12px;font-weight:700}.print-only{display:none}@media print{header,form,#profilePanel,.s9bar,footer{display:none!important}.card{box-shadow:none!important;break-inside:avoid}.print-only{display:block}.hidden{display:block!important}body{background:white!important}}</style>
+.s9bar{display:flex;gap:8px;justify-content:flex-end;align-items:center;margin-top:14px;flex-wrap:wrap}.s9btn{width:auto!important;padding:9px 12px!important;border-radius:999px!important;cursor:pointer;font-weight:700}.s9panel{position:fixed;right:14px;bottom:14px;width:min(390px,calc(100vw - 28px));max-height:72vh;overflow:auto;background:#fffdf8;border:1px solid #ead8bd;border-radius:20px;box-shadow:0 20px 60px #0003;z-index:100;padding:18px}.s9item{padding:11px;border:1px solid #ead8bd;border-radius:13px;margin:8px 0;background:#fff8ed}.s9row{display:flex;gap:7px;align-items:center;justify-content:space-between}.s9row button{width:auto;padding:7px 9px}.profile-chip{display:inline-flex;gap:7px;align-items:center;background:#fff0d4;border:1px solid #efd09b;border-radius:99px;padding:7px 11px;font-size:12px;font-weight:700}.print-only{display:none}@media print{header,form,#profilePanel,.s9bar,footer{display:none!important}.card{box-shadow:none!important;break-inside:avoid}.print-only{display:block}.hidden{display:block!important}body{background:white!important}}
+.s9bar{display:flex;gap:8px;justify-content:flex-end;align-items:center;margin-top:14px;flex-wrap:wrap}.s9btn{width:auto!important;padding:9px 12px!important;border-radius:999px!important;cursor:pointer;font-weight:700}.s9panel{position:fixed;right:14px;bottom:14px;width:min(390px,calc(100vw - 28px));max-height:72vh;overflow:auto;background:#fffdf8;border:1px solid #ead8bd;border-radius:20px;box-shadow:0 20px 60px #0003;z-index:100;padding:18px}.s9item{padding:11px;border:1px solid #ead8bd;border-radius:13px;margin:8px 0;background:#fff8ed}.s9row{display:flex;gap:7px;align-items:center;justify-content:space-between}.s9row button{width:auto;padding:7px 9px}.profile-chip{display:inline-flex;gap:7px;align-items:center;background:#fff0d4;border:1px solid #efd09b;border-radius:99px;padding:7px 11px;font-weight:700}.print-only{display:none}@media print{header,form,#profilePanel,.s9bar,footer{display:none!important}.card{box-shadow:none!important;break-inside:avoid}.print-only{display:block}.hidden{display:block!important}body{background:white!important}}
 </style><link rel="stylesheet" href="/static/stage7.css"><script defer src="/static/stage7.js"></script></head><body><header><div class="wrap"><div class="brand"><div class="om">ॐ</div><div><h1>BhawishyaWani</h1><div>भारतीय वैदिक ज्योतिष • Indian Vedic Astrology</div></div></div><div class="tag">Real astronomical calculations • Clear Jyotisha interpretation • Built for Bharat & the world</div></div></header><main>
 <section class="card"><div class="hero"><div class="pills"><span class="pill">Lahiri / Chitrapaksha</span><span class="pill">Swiss Ephemeris</span><span class="pill">Sidereal • Whole Sign</span><span class="pill">D1 • D9 • Vimshottari</span></div><h2>अपनी जन्म कुंडली बनाइए</h2><p class="small">जन्म स्थान चुनें — timezone अपने-आप निकलेगा।</p></div><form id="form"><div class="grid"><div><label>Name</label><input id="name" placeholder="Your name"></div><div><label>Date of birth</label><input id="date" type="date" required></div><div><label>Time of birth</label><input id="time" type="time" required></div><div class="suggest"><label>Birth place</label><input id="place" autocomplete="off" placeholder="Type Udaipur, Jaipur, Delhi…" required><div id="places" class="results hidden"></div><div id="placeStatus" class="status hidden"></div></div><div><label>Interpretation language</label><select id="language"><option value="hinglish">Hinglish + Sanskrit terms</option><option value="hi">हिंदी</option><option value="en">English</option></select></div></div><button class="primary" id="go">🔱 Generate My Kundli</button></form><div id="err" class="error hidden"></div></section>
 <section id="result" class="hidden"><div class="card"><h3 class="section-title">आपकी जन्म कुंडली • Your Birth Chart</h3><div id="summary" class="summary"></div><div class="chart-wrap"><div id="chart"></div></div></div>
@@ -79,4 +79,116 @@ $('form').addEventListener('submit',async e=>{e.preventDefault();$('err').classL
  window.BWStage8ShowInsights=showInsights;
 })();
 </script>
-\n<script>\n(function(){\n const KEY='bhawishyawani_profiles_v1'; const HIST='bhawishyawani_history_v1';\n const $=id=>document.getElementById(id);\n const load=k=>{try{return JSON.parse(localStorage.getItem(k)||'[]')}catch(e){return[]}};\n const save=(k,v)=>localStorage.setItem(k,JSON.stringify(v));\n function current(){if(!lastChart)return null;return {id:Date.now(),name:$('name').value.trim()||'My Kundli',date:$('date').value,time:$('time').value,place:selectedPlace,language:$('language').value,chart:lastChart,savedAt:new Date().toISOString()};}\n function renderProfiles(){const list=load(KEY);$('profileList').innerHTML=list.length?list.map((p,i)=>`<div class="s9item"><div class="s9row"><b>${String(p.name).replace(/[<>]/g,'')}</b><button type="button" data-del="${i}">Delete</button></div><div class="small">${p.place||''} • ${p.date} ${p.time}</div><button type="button" class="s9btn" data-load="${i}" style="margin-top:7px">Open Report</button></div>`).join(''):'<p class="small">No saved profiles yet.</p>';list.forEach((p,i)=>{});document.querySelectorAll('[data-del]').forEach(b=>b.onclick=()=>{const a=load(KEY);a.splice(+b.dataset.del,1);save(KEY,a);renderProfiles()});document.querySelectorAll('[data-load]').forEach(b=>b.onclick=()=>{const a=load(KEY)[+b.dataset.load];if(!a)return; $('name').value=a.name;$('date').value=a.date;$('time').value=a.time;$('place').value=a.place||'';selectedPlace=a.place||null;$('language').value=a.language||'hinglish';lastChart=a.chart;$('result').classList.remove('hidden');$('summary').innerHTML=`<div class="stat"><span>Birth place</span><b>${a.place.split(',')[0]}</b></div><div class="stat"><span>Lagna</span><b>${a.chart.lagna.rashi_hi}</b><small>${a.chart.lagna.rashi} ${a.chart.lagna.degree_in_rashi.toFixed(2)}°</small></div><div class="stat"><span>Moon Nakshatra</span><b>${a.chart.grahas.Chandra.nakshatra}</b><small>Pada ${a.chart.grahas.Chandra.pada}</small></div><div class="stat"><span>Starting Dasha</span><b>${a.chart.dasha.starting_lord_hi}</b><small>${a.chart.dasha.starting_lord}</small></div>`; if(typeof kundliSvg==='function')$('chart').innerHTML=kundliSvg(a.chart); if(typeof renderLife==='function')renderLife(a.chart); window.scrollTo({top:$('result').offsetTop-10,behavior:'smooth'});$('profilePanel').classList.add('hidden')});}\n function saveProfile(){const p=current();if(!p){alert('Generate a Kundli first.');return}let a=load(KEY);const idx=a.findIndex(x=>x.place===p.place&&x.date===p.date&&x.time===p.time);if(idx>=0)a[idx]=p;else a.unshift(p);save(KEY,a.slice(0,10));$('profileChip').textContent='👤 '+p.name;renderProfiles();}\n $('saveProfile')?.addEventListener('click',saveProfile); $('openProfiles')?.addEventListener('click',()=>{$('profilePanel').classList.remove('hidden');renderProfiles()}); $('closeProfiles')?.addEventListener('click',()=>$('profilePanel').classList.add('hidden')); $('printReport')?.addEventListener('click',()=>{if(!lastChart){alert('Generate a Kundli first.');return}window.print()});\n // Keep a compact report history, independent of saved profiles.\n const originalShow=window.BWStage7Show; window.BWStage7Show=function(c){lastChart=c;originalShow&&originalShow(c)};\n window.addEventListener('beforeunload',()=>{if(lastChart){let h=load(HIST);h.unshift({name:$('name').value||'Guest',place:selectedPlace,date:$('date').value,time:$('time').value,savedAt:new Date().toISOString()});save(HIST,h.slice(0,20))}});\n})();\n</script>\n</body></html>
+<script>
+(function () {
+  const KEY = 'bhawishyawani_profiles_v1';
+  const HISTORY_KEY = 'bhawishyawani_history_v1';
+  const $ = id => document.getElementById(id);
+  const load = key => {
+    try { return JSON.parse(localStorage.getItem(key) || '[]'); }
+    catch (_) { return []; }
+  };
+  const save = (key, value) => localStorage.setItem(key, JSON.stringify(value));
+
+  function currentProfile() {
+    if (!lastChart) return null;
+    return {
+      id: Date.now(),
+      name: $('name').value.trim() || 'My Kundli',
+      date: $('date').value,
+      time: $('time').value,
+      place: selectedPlace,
+      language: $('language').value,
+      chart: lastChart,
+      savedAt: new Date().toISOString()
+    };
+  }
+
+  function renderProfiles() {
+    const list = load(KEY);
+    $('profileList').innerHTML = list.length
+      ? list.map((profile, index) => `<div class="s9item"><div class="s9row"><b>${String(profile.name).replace(/[<>]/g, '')}</b><button type="button" data-del="${index}">Delete</button></div><div class="small">${profile.place || ''} • ${profile.date} ${profile.time}</div><button type="button" class="s9btn" data-load="${index}" style="margin-top:7px">Open Report</button></div>`).join('')
+      : '<p class="small">No saved profiles yet.</p>';
+
+    document.querySelectorAll('[data-del]').forEach(button => {
+      button.onclick = () => {
+        const profiles = load(KEY);
+        profiles.splice(Number(button.dataset.del), 1);
+        save(KEY, profiles);
+        renderProfiles();
+      };
+    });
+
+    document.querySelectorAll('[data-load]').forEach(button => {
+      button.onclick = () => {
+        const profile = load(KEY)[Number(button.dataset.load)];
+        if (!profile || !profile.chart) return;
+
+        $('name').value = profile.name || '';
+        $('date').value = profile.date || '';
+        $('time').value = profile.time || '';
+        $('place').value = profile.place || '';
+        selectedPlace = profile.place || null;
+        $('language').value = profile.language || 'hinglish';
+        lastChart = profile.chart;
+        $('result').classList.remove('hidden');
+
+        const chart = profile.chart;
+        $('summary').innerHTML = `<div class="stat"><span>Birth place</span><b>${(profile.place || '').split(',')[0]}</b></div><div class="stat"><span>Lagna</span><b>${chart.lagna.rashi_hi}</b><small>${chart.lagna.rashi} ${chart.lagna.degree_in_rashi.toFixed(2)}°</small></div><div class="stat"><span>Moon Nakshatra</span><b>${chart.grahas.Chandra.nakshatra}</b><small>Pada ${chart.grahas.Chandra.pada}</small></div><div class="stat"><span>Starting Dasha</span><b>${chart.dasha.starting_lord_hi}</b><small>${chart.dasha.starting_lord}</small></div>`;
+        $('chart').innerHTML = kundliSvg(chart);
+        renderLife(chart);
+
+        $('profilePanel').classList.add('hidden');
+        window.scrollTo({ top: $('result').offsetTop - 10, behavior: 'smooth' });
+      };
+    });
+  }
+
+  $('saveProfile').addEventListener('click', () => {
+    const profile = currentProfile();
+    if (!profile) {
+      alert('Generate a Kundli first.');
+      return;
+    }
+
+    const profiles = load(KEY);
+    const existing = profiles.findIndex(item =>
+      item.place === profile.place && item.date === profile.date && item.time === profile.time
+    );
+    if (existing >= 0) profiles[existing] = profile;
+    else profiles.unshift(profile);
+
+    save(KEY, profiles.slice(0, 10));
+    $('profileChip').textContent = '👤 ' + profile.name;
+    renderProfiles();
+  });
+
+  $('openProfiles').addEventListener('click', () => {
+    $('profilePanel').classList.remove('hidden');
+    renderProfiles();
+  });
+  $('closeProfiles').addEventListener('click', () => $('profilePanel').classList.add('hidden'));
+  $('printReport').addEventListener('click', () => {
+    if (!lastChart) {
+      alert('Generate a Kundli first.');
+      return;
+    }
+    window.print();
+  });
+
+  window.addEventListener('beforeunload', () => {
+    if (!lastChart) return;
+    const history = load(HISTORY_KEY);
+    history.unshift({
+      name: $('name').value || 'Guest',
+      place: selectedPlace,
+      date: $('date').value,
+      time: $('time').value,
+      savedAt: new Date().toISOString()
+    });
+    save(HISTORY_KEY, history.slice(0, 20));
+  });
+})();
+</script>
+</body>
+</html>
